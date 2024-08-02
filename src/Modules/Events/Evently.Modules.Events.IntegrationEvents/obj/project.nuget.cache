@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "mUHOsh5a/YqhHW8G74MOpU0/F3f4hp5C688RW+/HpKBfRkoApSfa9JHquLrl7PP3yoz9v0q37uNtkplTgTLw0Q==",
+  "success": true,
+  "projectFilePath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Events/Evently.Modules.Events.IntegrationEvents/Evently.Modules.Events.IntegrationEvents.csproj",
+  "expectedPackageFiles": [
+    "/Users/didierrestrepo/.nuget/packages/dapper/2.1.44/dapper.2.1.44.nupkg.sha512",
+    "/Users/didierrestrepo/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
+    "/Users/didierrestrepo/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.0/fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
+    "/Users/didierrestrepo/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/didierrestrepo/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/didierrestrepo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "/Users/didierrestrepo/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.1/microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512",
+    "/Users/didierrestrepo/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
+    "/Users/didierrestrepo/.nuget/packages/sonaranalyzer.csharp/9.24.0.89429/sonaranalyzer.csharp.9.24.0.89429.nupkg.sha512",
+    "/Users/didierrestrepo/.nuget/packages/ulid/1.3.3/ulid.1.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,394 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.Application/Evently.Modules.Users.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Application/Evently.Common.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Application/Evently.Common.Application.csproj",
+        "projectName": "Evently.Common.Application",
+        "projectPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Application/Evently.Common.Application.csproj",
+        "packagesPath": "/Users/didierrestrepo/.nuget/packages/",
+        "outputPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/didierrestrepo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Domain/Evently.Common.Domain.csproj": {
+                "projectPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Domain/Evently.Common.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.44, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.24.0.89429, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Domain/Evently.Common.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Domain/Evently.Common.Domain.csproj",
+        "projectName": "Evently.Common.Domain",
+        "projectPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Domain/Evently.Common.Domain.csproj",
+        "packagesPath": "/Users/didierrestrepo/.nuget/packages/",
+        "outputPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/didierrestrepo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.24.0.89429, )"
+            },
+            "Ulid": {
+              "target": "Package",
+              "version": "[1.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.Application/Evently.Modules.Users.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.Application/Evently.Modules.Users.Application.csproj",
+        "projectName": "Evently.Modules.Users.Application",
+        "projectPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.Application/Evently.Modules.Users.Application.csproj",
+        "packagesPath": "/Users/didierrestrepo/.nuget/packages/",
+        "outputPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/didierrestrepo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Application/Evently.Common.Application.csproj": {
+                "projectPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Application/Evently.Common.Application.csproj"
+              },
+              "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.Domain/Evently.Modules.Users.Domain.csproj": {
+                "projectPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.Domain/Evently.Modules.Users.Domain.csproj"
+              },
+              "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.IntegrationEvents/Evently.Modules.Users.IntegrationEvents.csproj": {
+                "projectPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.IntegrationEvents/Evently.Modules.Users.IntegrationEvents.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.24.0.89429, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.Domain/Evently.Modules.Users.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.Domain/Evently.Modules.Users.Domain.csproj",
+        "projectName": "Evently.Modules.Users.Domain",
+        "projectPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.Domain/Evently.Modules.Users.Domain.csproj",
+        "packagesPath": "/Users/didierrestrepo/.nuget/packages/",
+        "outputPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/didierrestrepo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Domain/Evently.Common.Domain.csproj": {
+                "projectPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Domain/Evently.Common.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.24.0.89429, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.IntegrationEvents/Evently.Modules.Users.IntegrationEvents.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.IntegrationEvents/Evently.Modules.Users.IntegrationEvents.csproj",
+        "projectName": "Evently.Modules.Users.IntegrationEvents",
+        "projectPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.IntegrationEvents/Evently.Modules.Users.IntegrationEvents.csproj",
+        "packagesPath": "/Users/didierrestrepo/.nuget/packages/",
+        "outputPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Modules/Users/Evently.Modules.Users.IntegrationEvents/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/didierrestrepo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Application/Evently.Common.Application.csproj": {
+                "projectPath": "/Users/didierrestrepo/Downloads/eventlyFinal/src/Common/Evently.Common.Application/Evently.Common.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.24.0.89429, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
