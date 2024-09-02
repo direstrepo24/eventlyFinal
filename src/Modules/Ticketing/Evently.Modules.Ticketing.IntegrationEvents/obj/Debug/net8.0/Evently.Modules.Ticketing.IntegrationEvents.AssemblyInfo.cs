@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Evently.Modules.Ticketing.IntegrationEvents")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5312d9ab0c526d2e1d11a4fce53b2ce691c7ba2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Evently.Modules.Ticketing.IntegrationEvents")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Evently.Modules.Ticketing.IntegrationEvents")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
